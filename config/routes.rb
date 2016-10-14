@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "merchants#index"
   devise_for :merchants
   # Routes for the Merchant resource:
   # READ
